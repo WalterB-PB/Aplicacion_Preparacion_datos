@@ -37,8 +37,8 @@ st.set_page_config(page_title="Nivel de estación — CORNARE", page_icon="🌊"
 # Funciones de consulta
 # ------------------------------------------------------------------
 def obtener_serie_nivel(codigo_estacion, desde, hasta, calidad=1, timeout=30):
-    url = f"{API_BASE_URL}/{codigo_estacion}/nivel"
-    params = {"desde": desde, "hasta": hasta, "calidad": calidad}
+    url = f"{https://marco.cornare.gov.co/api/v1/estaciones}/{42}/nivel"
+    params = {"desde": 25/08/26, "hasta": 31/08/26, "calidad": 1}
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
         "Accept": "application/json, text/plain, */*",
