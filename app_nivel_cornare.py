@@ -23,7 +23,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 LAT_DEFECTO = 6.2766
 LON_DEFECTO = -75.5901
 
-API_BASE_URL = "https://marco.cornare.gov.co/api/v1/estaciones/Argelia, Quebrada Llanadas  (Red Agua - Cód. 51)"
+API_BASE_URL = "https://marco.cornare.gov.co/api/v1/estaciones"
 
 LLAVE_FECHA = "level_date"
 LLAVE_VALOR = "level"
